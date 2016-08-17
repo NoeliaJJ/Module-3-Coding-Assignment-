@@ -17,4 +17,6 @@ body {
 	color: white;
 	text-shadow:2px 2px 2px #222;
 }
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 
