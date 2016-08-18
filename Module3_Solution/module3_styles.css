@@ -34,11 +34,14 @@ div > a.navbar-brand {
 #nav-list a {
 	border: 1px solid black;
 }
-#nav-list a:hover {
-	background: #0684b9;
+#nav-list a:hover, {
+	background: #359a58;
 }
 #collapsable-menu {
 	padding: 0;
+}
+ul#navbar-list {
+	background-color: #a9e4ff;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid white;
@@ -48,6 +51,7 @@ div > a.navbar-brand {
 }
 
 .navbar-default .navbar-nav>li>a {/*To modify the color of the letters of the options in the dropdown menu*/
+	background-color: #48c975;
 	color:white;
 }
 
