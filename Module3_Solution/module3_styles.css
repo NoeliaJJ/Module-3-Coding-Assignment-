@@ -1,7 +1,7 @@
 body {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:16px;
 }
-
 
 /* styles for the header */
 
@@ -11,37 +11,55 @@ body {
 	border: 0px;
 }
 
-.navbar-brand span {
-	font-size: 1.5em;
-	text-shadow: 2px 2px 2px #ccc;
-	color:white;
+.navbar-brand h1 {
 	font-weight: 500;
+	color:white;
+	text-shadow: 2px 2px 2px #ccc;
+	margin-top:0;
+	margin-bottom:0;
 }
-
+.navbar-nav {
+	margin:0;
+}
 #nav-list {
-	padding: 5px 0px 5px;
 	font-size: 1.2em;
 	text-align: center;
 }
-
 #nav-list a {
 	border: 1px solid black;
 }
 #nav-list a:hover {
 	background: #0684b9;
 }
+#collapsable-menu {
+	padding: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid white;
+}
 
+.navbar-header button.navbar-toggle {
+	margin: 15px;
+}
 
 /* Button and collapsable menu styling */
 
 
+/*Styles for sections */
 
-/* DESKTOP AND TABLET DISPLAY*/
-
-
-
-/* MOBILE DEVICES*/
-
-
-
-/* EXTRA SMALL DEVICES*/
+.row {
+	margin: 0 15px 0 15px;
+	padding: 0;
+}
+#category-title {
+	font-size: 2em;
+	font-weight: 700;
+}
+.category-tile {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #a9e4ff;
+}
+.description {
+	text-align: justify;
+}
