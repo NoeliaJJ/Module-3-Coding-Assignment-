@@ -9,14 +9,17 @@ body {
 	background-color:#0a9edb;
 	border-radius: 0px;
 	border: 0px;
+	min-height: 69px;
 }
-
 .navbar-brand h1 {
 	font-weight: 500;
-	color:white;
+	color:black;
 	text-shadow: 2px 2px 2px #ccc;
 	margin-top:0;
 	margin-bottom:0;
+}
+div > a.navbar-brand {
+	min-height: 69px;
 }
 .navbar-nav {
 	margin:0;
