@@ -5,49 +5,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Food Heaven, LCC</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
- 	<link rel="stylesheet" href="module3_styles.css">
+	<link rel="stylesheet" href="module3_styles.css">
 </head>
 <body>
 	<header>
 		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container-fluid">
-				<div class="navbar-header">
-				     <a class="navbar-brand" href="index.html"><h1>Food Heaven, LCC</h1></a>
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-      				  <span class="sr-only">Toggle navigation</span>
-       				  <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-    				</button>
+		     <div class="container">
+		         <div class="navbar-header">
+		         	<button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-menu" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+      				</button>
+     				<a class="navbar-brand" href="#"><span>Food Heaven, LCC</span> </a>
+     			</div>
+     			<div class="collapse navbar-collapse" id="collapsable-menu">
+      				<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+				        <li>
+				        	<a href="chicken-category.html"><span> Chicken </span></a>
+				        </li>
+				        <li>
+				        	<a href="beef-category.html"><span> Beef </span></a>
+				        </li>
+				        <li>
+				        	<a href="sushi-category.html"><span> Sushi </span></a>
+				        </li>
+				    </ul>
 				</div>
-
-				<div id="collapsable-nav" class="collapse navbar-collapse">
-			      	<ul id="nav-list" class="nav navbar-nav navbar-right">
-			        	<li class="visible-xs">
-			        		<a href="chicken-category">
-			        		<span> Chicken </span>
-			        		</a>
-			        	</li>
-			        	<li class="visible-xs">
-			        		<a href="beef-category">
-			        		<span> Beef </span>
-			        		</a>
-			        	</li>
-			        	<li class="visible-xs">
-			        		<a href="">
-			        		<span>Sushi</span>
-			        		</a>
-			        	</li>
-			        </ul>
-				</div>
-
 			</div>
 		</nav>
 	</header>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
- 	<script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 </html>
